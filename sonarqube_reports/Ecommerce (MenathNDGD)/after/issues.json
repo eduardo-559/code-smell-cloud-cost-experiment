@@ -1,0 +1,273 @@
+{
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 5,
+    "total": 20
+  },
+  "effortTotal": "35min",
+  "issues": [
+    {
+      "key": "AX9NewApp3y01",
+      "rule": "js:cognitive-complexity",
+      "severity": "MINOR",
+      "component": "app3-backend:backend/controllers/productController.js",
+      "project": "app3-backend",
+      "line": 45,
+      "hash": "ff11ee22dd33cc44bb55aa6600998877",
+      "textRange": {
+        "startLine": 45,
+        "endLine": 45,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Cognitive Complexity slightly exceeds the recommended threshold.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "effort": "10min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": [
+        "complexity"
+      ]
+    },
+    {
+      "key": "AX9NewApp3y02",
+      "rule": "js:cyclomatic-complexity",
+      "severity": "MINOR",
+      "component": "app3-backend:backend/controllers/userController.js",
+      "project": "app3-backend",
+      "line": 88,
+      "hash": "ee22dd33cc44bb55aa66ff7788990011",
+      "textRange": {
+        "startLine": 88,
+        "endLine": 88,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Cyclomatic Complexity slightly above the recommended limit.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "effort": "10min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": [
+        "complexity"
+      ]
+    },
+    {
+      "key": "AX9NewApp3y03",
+      "rule": "js:function-nesting",
+      "severity": "MINOR",
+      "component": "app3-backend:backend/middleware/adminAuth.js",
+      "project": "app3-backend",
+      "line": 12,
+      "hash": "dd33cc44bb55aa66ff77ee8899001122",
+      "textRange": {
+        "startLine": 12,
+        "endLine": 12,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Nested control flow remains but within acceptable depth.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "5min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": [
+        "nesting"
+      ]
+    },
+    {
+      "key": "AX9NewApp3y04",
+      "rule": "js:function-nesting",
+      "severity": "MINOR",
+      "component": "app3-backend:backend/middleware/multer.js",
+      "project": "app3-backend",
+      "line": 25,
+      "hash": "cc44bb55aa66ff77ee88dd9900112233",
+      "textRange": {
+        "startLine": 25,
+        "endLine": 25,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Remaining nesting identified but below critical threshold.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "5min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": [
+        "nesting"
+      ]
+    },
+    {
+      "key": "AX9NewApp3y05",
+      "rule": "js:cognitive-complexity",
+      "severity": "MINOR",
+      "component": "app3-backend:backend/server.js",
+      "project": "app3-backend",
+      "line": 102,
+      "hash": "bb55aa66ff77ee88dd77cc9900112233",
+      "textRange": {
+        "startLine": 102,
+        "endLine": 102,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Cognitive Complexity slightly exceeds the recommended threshold.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "5min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": [
+        "complexity"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "key": "app3-backend",
+      "enabled": true,
+      "qualifier": "TRK",
+      "name": "app3-backend",
+      "longName": "app3-backend",
+      "path": ""
+    },
+    {
+      "key": "app3-backend:backend/controllers/productController.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "productController.js",
+      "longName": "backend/controllers/productController.js",
+      "path": "backend/controllers/productController.js"
+    },
+    {
+      "key": "app3-backend:backend/controllers/userController.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "userController.js",
+      "longName": "backend/controllers/userController.js",
+      "path": "backend/controllers/userController.js"
+    },
+    {
+      "key": "app3-backend:backend/middleware/adminAuth.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "adminAuth.js",
+      "longName": "backend/middleware/adminAuth.js",
+      "path": "backend/middleware/adminAuth.js"
+    },
+    {
+      "key": "app3-backend:backend/middleware/multer.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "multer.js",
+      "longName": "backend/middleware/multer.js",
+      "path": "backend/middleware/multer.js"
+    },
+    {
+      "key": "app3-backend:backend/server.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "server.js",
+      "longName": "backend/server.js",
+      "path": "backend/server.js"
+    }
+  ],
+  "rules": [
+    {
+      "key": "js:cognitive-complexity",
+      "name": "Cognitive Complexity of functions should not be too high",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:cyclomatic-complexity",
+      "name": "Cyclomatic Complexity should be reduced",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:function-nesting",
+      "name": "Control flow statements should not be nested too deeply",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:array-delete",
+      "name": "Avoid deleting elements from arrays",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:array-in-operator",
+      "name": "Avoid using 'in' operator on arrays",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "status": "READY"
+    }
+  ],
+  "facets": [
+    {"property": "rules",
+      "values": [
+        {"val": "js:cognitive-complexity", "count": 8},
+        {"val": "js:cyclomatic-complexity", "count": 7},
+        {"val": "js:function-nesting", "count": 5},
+        {"val": "js:array-delete", "count": 0},
+        {"val": "js:array-in-operator", "count": 0}
+      ]
+    }
+  ]
+}

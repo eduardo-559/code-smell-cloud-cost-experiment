@@ -1,0 +1,13 @@
+billing_account_id,service.description,sku.description,usage.start_time,usage.end_time,project.id,resource.name,usage.amount,usage.unit,cost,currency
+GCP-K1-722-H4,Cloud Run,CPU Allocation Time,2025-11-05 08:00:00,2025-11-05 09:00:00,prj-app2-441,cr-svc-v2-main,242.110500,seconds,0.058106,USD
+GCP-K1-722-H4,Cloud Run,Memory Allocation Time,2025-11-05 08:00:00,2025-11-05 09:00:00,prj-app2-441,cr-svc-v2-main,60.527625,gibibyte-seconds,0.018158,USD
+GCP-K1-722-H4,Cloud Run,Request Count,2025-11-05 08:00:00,2025-11-05 09:00:00,prj-app2-441,cr-svc-v2-main,13853.125,requests,0.005541,USD
+GCP-B9-003-V2,Cloud Run,CPU Allocation Time,2025-11-12 11:00:00,2025-11-12 12:00:00,prj-app2-441,cr-svc-v2-main,242.110500,seconds,0.058106,USD
+GCP-B9-003-V2,Cloud Run,Memory Allocation Time,2025-11-12 11:00:00,2025-11-12 12:00:00,prj-app2-441,cr-svc-v2-main,60.527625,gibibyte-seconds,0.018158,USD
+GCP-B9-003-V2,Cloud Run,Request Count,2025-11-12 11:00:00,2025-11-12 12:00:00,prj-app2-441,cr-svc-v2-main,13853.125,requests,0.005541,USD
+GCP-F4-881-Z0,Cloud Run,CPU Allocation Time,2025-11-18 20:00:00,2025-11-18 21:00:00,prj-app2-441,cr-svc-v2-main,242.110500,seconds,0.058106,USD
+GCP-F4-881-Z0,Cloud Run,Memory Allocation Time,2025-11-18 20:00:00,2025-11-18 21:00:00,prj-app2-441,cr-svc-v2-main,60.527625,gibibyte-seconds,0.018158,USD
+GCP-F4-881-Z0,Cloud Run,Request Count,2025-11-18 20:00:00,2025-11-18 21:00:00,prj-app2-441,cr-svc-v2-main,13853.125,requests,0.005541,USD
+GCP-N7-330-X9,Cloud Run,CPU Allocation Time,2025-11-26 03:00:00,2025-11-26 04:00:00,prj-app2-441,cr-svc-v2-main,242.110500,seconds,0.058106,USD
+GCP-N7-330-X9,Cloud Run,Memory Allocation Time,2025-11-26 03:00:00,2025-11-26 04:00:00,prj-app2-441,cr-svc-v2-main,60.527625,gibibyte-seconds,0.018158,USD
+GCP-N7-330-X9,Cloud Run,Request Count,2025-11-26 03:00:00,2025-11-26 04:00:00,prj-app2-441,cr-svc-v2-main,13853.125,requests,0.005541,USD

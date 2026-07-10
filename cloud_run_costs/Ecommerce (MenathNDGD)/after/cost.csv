@@ -1,0 +1,13 @@
+billing_account_id,service.description,sku.description,usage.start_time,usage.end_time,project.id,resource.name,usage.amount,usage.unit,cost,currency
+GCP-L2-998-P0,Cloud Run,CPU Allocation Time,2026-01-02 14:00:00,2026-01-02 15:00:00,prj-app3-102,cr-svc-v3-refac,172.916667,seconds,0.041500,USD
+GCP-L2-998-P0,Cloud Run,Memory Allocation Time,2026-01-02 14:00:00,2026-01-02 15:00:00,prj-app3-102,cr-svc-v3-refac,43.229167,gibibyte-seconds,0.010807,USD
+GCP-L2-998-P0,Cloud Run,Request Count,2026-01-02 14:00:00,2026-01-02 15:00:00,prj-app3-102,cr-svc-v3-refac,15412.50,requests,0.006165,USD
+GCP-J7-112-X4,Cloud Run,CPU Allocation Time,2026-01-11 08:00:00,2026-01-11 09:00:00,prj-app3-102,cr-svc-v3-refac,172.916667,seconds,0.041500,USD
+GCP-J7-112-X4,Cloud Run,Memory Allocation Time,2026-01-11 08:00:00,2026-01-11 09:00:00,prj-app3-102,cr-svc-v3-refac,43.229167,gibibyte-seconds,0.010807,USD
+GCP-J7-112-X4,Cloud Run,Request Count,2026-01-11 08:00:00,2026-01-11 09:00:00,prj-app3-102,cr-svc-v3-refac,15412.50,requests,0.006165,USD
+GCP-D9-550-M1,Cloud Run,CPU Allocation Time,2026-01-18 21:00:00,2026-01-18 22:00:00,prj-app3-102,cr-svc-v3-refac,172.916667,seconds,0.041500,USD
+GCP-D9-550-M1,Cloud Run,Memory Allocation Time,2026-01-18 21:00:00,2026-01-18 22:00:00,prj-app3-102,cr-svc-v3-refac,43.229167,gibibyte-seconds,0.010807,USD
+GCP-D9-550-M1,Cloud Run,Request Count,2026-01-18 21:00:00,2026-01-18 22:00:00,prj-app3-102,cr-svc-v3-refac,15412.50,requests,0.006165,USD
+GCP-Y3-004-K8,Cloud Run,CPU Allocation Time,2026-01-25 03:00:00,2026-01-25 04:00:00,prj-app3-102,cr-svc-v3-refac,172.916667,seconds,0.041500,USD
+GCP-Y3-004-K8,Cloud Run,Memory Allocation Time,2026-01-25 03:00:00,2026-01-25 04:00:00,prj-app3-102,cr-svc-v3-refac,43.229167,gibibyte-seconds,0.010807,USD
+GCP-Y3-004-K8,Cloud Run,Request Count,2026-01-25 03:00:00,2026-01-25 04:00:00,prj-app3-102,cr-svc-v3-refac,15412.50,requests,0.006165,USD

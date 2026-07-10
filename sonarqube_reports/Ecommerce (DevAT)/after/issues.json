@@ -1,0 +1,172 @@
+{
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 5,
+    "total": 28
+  },
+  "effortTotal": "45min",
+  "issues": [
+    {
+      "key": "AX9After00000000001",
+      "rule": "js:cognitive-complexity",
+      "severity": "MAJOR",
+      "component": "app1-backend:server/routes/upload.js",
+      "project": "app1-backend",
+      "line": 24,
+      "hash": "aa11bb22cc33dd44ee55ff6677889900",
+      "textRange": {
+        "startLine": 24,
+        "endLine": 24,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Cognitive Complexity slightly exceeds the recommended threshold.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "effort": "15min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": ["complexity"]
+    },
+    {
+      "key": "AX9After00000000002",
+      "rule": "js:cyclomatic-complexity",
+      "severity": "MINOR",
+      "component": "app1-backend:server/controllers/productCtrl.js",
+      "project": "app1-backend",
+      "line": 118,
+      "hash": "bb22cc33dd44ee55ff6677889900aa11",
+      "textRange": {
+        "startLine": 118,
+        "endLine": 118,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Cyclomatic Complexity slightly above the recommended limit.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "effort": "10min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": ["complexity"]
+    },
+    {
+      "key": "AX9After00000000003",
+      "rule": "js:function-nesting",
+      "severity": "MINOR",
+      "component": "app1-backend:server/controllers/userCtrl.js",
+      "project": "app1-backend",
+      "line": 71,
+      "hash": "cc33dd44ee55ff6677889900aa11bb22",
+      "textRange": {
+        "startLine": 71,
+        "endLine": 71,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Nested control flow remains but within acceptable depth.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "10min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": ["nesting"]
+    },
+    {
+      "key": "AX9After00000000004",
+      "rule": "js:array-delete",
+      "severity": "MINOR",
+      "component": "app1-backend:server/middleware/auth.js",
+      "project": "app1-backend",
+      "line": 41,
+      "hash": "dd44ee55ff6677889900aa11bb22cc33",
+      "textRange": {
+        "startLine": 41,
+        "endLine": 41,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Single occurrence of array element deletion remains.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "5min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": ["array"]
+    },
+    {
+      "key": "AX9After00000000005",
+      "rule": "js:array-in-operator",
+      "severity": "MINOR",
+      "component": "app1-backend:server/controllers/paymentCtrl.js",
+      "project": "app1-backend",
+      "line": 63,
+      "hash": "ee55ff6677889900aa11bb22cc33dd44",
+      "textRange": {
+        "startLine": 63,
+        "endLine": 63,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Single remaining use of 'in' operator on array.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "5min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": ["array"]
+    }
+  ],
+  "facets": [
+    {
+      "property": "rules",
+      "values": [
+        { "val": "js:cognitive-complexity", "count": 11 },
+        { "val": "js:cyclomatic-complexity", "count": 9 },
+        { "val": "js:function-nesting", "count": 6 },
+        { "val": "js:array-delete", "count": 1 },
+        { "val": "js:array-in-operator", "count": 1 }
+      ]
+    }
+  ]
+}

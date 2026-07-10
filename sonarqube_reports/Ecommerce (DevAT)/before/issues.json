@@ -1,0 +1,172 @@
+{
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 5,
+    "total": 78
+  },
+  "effortTotal": "95min",
+  "issues": [
+    {
+      "key": "AX8ZyXwVuTsRqPoN1a01",
+      "rule": "js:cognitive-complexity",
+      "severity": "MAJOR",
+      "component": "app1-backend:server/routes/upload.js",
+      "project": "app1-backend",
+      "line": 18,
+      "hash": "c1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6",
+      "textRange": {
+        "startLine": 18,
+        "endLine": 45,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Refactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "effort": "25min",
+      "creationDate": "2025-11-15T10:00:00+0000",
+      "updateDate": "2025-11-15T10:00:00+0000",
+      "tags": ["brain-overload", "complexity"]
+    },
+    {
+      "key": "AX8ZyXwVuTsRqPoN1a02",
+      "rule": "js:cyclomatic-complexity",
+      "severity": "MAJOR",
+      "component": "app1-backend:server/controllers/productCtrl.js",
+      "project": "app1-backend",
+      "line": 132,
+      "hash": "d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2",
+      "textRange": {
+        "startLine": 132,
+        "endLine": 190,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Cyclomatic Complexity of this function is higher than the recommended threshold.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "HIGH"
+        }
+      ],
+      "effort": "30min",
+      "creationDate": "2025-11-15T10:00:00+0000",
+      "updateDate": "2025-11-15T10:00:00+0000",
+      "tags": ["complexity"]
+    },
+    {
+      "key": "AX8ZyXwVuTsRqPoN1a03",
+      "rule": "js:function-nesting",
+      "severity": "MAJOR",
+      "component": "app1-backend:server/controllers/userCtrl.js",
+      "project": "app1-backend",
+      "line": 76,
+      "hash": "e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6",
+      "textRange": {
+        "startLine": 76,
+        "endLine": 118,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Control flow statements are nested too deeply.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "effort": "20min",
+      "creationDate": "2025-11-15T10:00:00+0000",
+      "updateDate": "2025-11-15T10:00:00+0000",
+      "tags": ["nesting"]
+    },
+    {
+      "key": "AX8ZyXwVuTsRqPoN1a04",
+      "rule": "js:array-delete",
+      "severity": "MINOR",
+      "component": "app1-backend:server/middleware/auth.js",
+      "project": "app1-backend",
+      "line": 39,
+      "hash": "a9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4",
+      "textRange": {
+        "startLine": 39,
+        "endLine": 39,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Deleting array elements may lead to unexpected behavior.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "10min",
+      "creationDate": "2025-11-15T10:00:00+0000",
+      "updateDate": "2025-11-15T10:00:00+0000",
+      "tags": ["array"]
+    },
+    {
+      "key": "AX8ZyXwVuTsRqPoN1a05",
+      "rule": "js:array-in-operator",
+      "severity": "MINOR",
+      "component": "app1-backend:server/controllers/paymentCtrl.js",
+      "project": "app1-backend",
+      "line": 58,
+      "hash": "f0e1d2c3b4a5968778695a4b3c2d1e0f",
+      "textRange": {
+        "startLine": 58,
+        "endLine": 58,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Avoid using the 'in' operator with arrays.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "10min",
+      "creationDate": "2025-11-15T10:00:00+0000",
+      "updateDate": "2025-11-15T10:00:00+0000",
+      "tags": ["array"]
+    }
+  ],
+  "facets": [
+    {
+      "property": "rules",
+      "values": [
+        { "val": "js:cognitive-complexity", "count": 28 },
+        { "val": "js:cyclomatic-complexity", "count": 22 },
+        { "val": "js:function-nesting", "count": 17 },
+        { "val": "js:array-delete", "count": 6 },
+        { "val": "js:array-in-operator", "count": 5 }
+      ]
+    }
+  ]
+}

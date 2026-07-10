@@ -1,0 +1,264 @@
+{
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 5,
+    "total": 48
+  },
+  "effortTotal": "80min",
+  "issues": [
+    {
+      "key": "AX9CritApp4y01",
+      "rule": "js:cognitive-complexity",
+      "severity": "MAJOR",
+      "component": "app4-backend:server/controllers/userController.js",
+      "project": "app4-backend",
+      "line": 32,
+      "hash": "cc11dd22ee33ff44aa55bb6600112233",
+      "textRange": {
+        "startLine": 32,
+        "endLine": 32,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Cognitive Complexity slightly exceeds the recommended threshold.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "effort": "25min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": ["complexity"]
+    },
+    {
+      "key": "AX9CritApp4y02",
+      "rule": "js:cyclomatic-complexity",
+      "severity": "MINOR",
+      "component": "app4-backend:server/controllers/productController.js",
+      "project": "app4-backend",
+      "line": 110,
+      "hash": "dd22ee33ff44aa55bb66cc7711223344",
+      "textRange": {
+        "startLine": 110,
+        "endLine": 110,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Cyclomatic Complexity slightly above the recommended limit.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "effort": "20min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": ["complexity"]
+    },
+    {
+      "key": "AX9CritApp4y03",
+      "rule": "js:function-nesting",
+      "severity": "MINOR",
+      "component": "app4-backend:server/controllers/orderController.js",
+      "project": "app4-backend",
+      "line": 64,
+      "hash": "ee33ff44aa55bb66cc77dd8822334455",
+      "textRange": {
+        "startLine": 64,
+        "endLine": 64,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Nested control flow remains but within acceptable depth.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "15min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": ["nesting"]
+    },
+    {
+      "key": "AX9CritApp4y04",
+      "rule": "js:array-delete",
+      "severity": "MINOR",
+      "component": "app4-backend:server/middleware/authMiddleware.js",
+      "project": "app4-backend",
+      "line": 15,
+      "hash": "ff44aa55bb66cc77dd88ee9933445566",
+      "textRange": {
+        "startLine": 15,
+        "endLine": 15,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Single occurrence of array element deletion remains.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "10min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": ["array"]
+    },
+    {
+      "key": "AX9CritApp4y05",
+      "rule": "js:array-in-operator",
+      "severity": "MINOR",
+      "component": "app4-backend:server/server.js",
+      "project": "app4-backend",
+      "line": 85,
+      "hash": "aa55bb66cc77dd88ee99ff0044556677",
+      "textRange": {
+        "startLine": 85,
+        "endLine": 85,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Single remaining use of 'in' operator on array.",
+           "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "10min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": ["array"]
+    }
+  ],
+  "components": [
+    {
+      "key": "app4-backend",
+      "enabled": true,
+      "qualifier": "TRK",
+      "name": "app4-backend",
+      "longName": "app4-backend",
+      "path": ""
+    },
+    {
+      "key": "app4-backend:server/controllers/userController.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "userController.js",
+      "longName": "server/controllers/userController.js",
+      "path": "server/controllers/userController.js"
+    },
+    {
+      "key": "app4-backend:server/controllers/productController.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "productController.js",
+      "longName": "server/controllers/productController.js",
+      "path": "server/controllers/productController.js"
+    },
+    {
+      "key": "app4-backend:server/controllers/orderController.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "orderController.js",
+      "longName": "server/controllers/orderController.js",
+      "path": "server/controllers/orderController.js"
+    },
+    {
+      "key": "app4-backend:server/middleware/authMiddleware.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "authMiddleware.js",
+      "longName": "server/middleware/authMiddleware.js",
+      "path": "server/middleware/authMiddleware.js"
+    },
+    {
+      "key": "app4-backend:server/server.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "server.js",
+      "longName": "server/server.js",
+      "path": "server/server.js"
+    }
+  ],
+  "rules": [
+    {
+      "key": "js:cognitive-complexity",
+      "name": "Cognitive Complexity of functions should not be too high",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:cyclomatic-complexity",
+      "name": "Cyclomatic Complexity should be reduced",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:function-nesting",
+      "name": "Control flow statements should not be nested too deeply",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:array-delete",
+      "name": "Avoid deleting elements from arrays",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:array-in-operator",
+      "name": "Avoid using 'in' operator on arrays",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "status": "READY"
+    }
+  ],
+  "facets": [
+    {
+      "property": "rules",
+      "values": [
+        { "val": "js:cognitive-complexity", "count": 18 },
+        { "val": "js:cyclomatic-complexity", "count": 15 },
+        { "val": "js:function-nesting", "count": 11 },
+        { "val": "js:array-delete", "count": 2 },
+        { "val": "js:array-in-operator", "count": 2 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 5,
+    "total": 26
+  },
+  "effortTotal": "50min",
+  "issues": [
+    {
+      "key": "AX9App5Crit00y1",
+      "rule": "js:cognitive-complexity",
+      "severity": "MAJOR",
+      "component": "app5-backend:backend/routes/productRoutes.js",
+      "project": "app5-backend",
+      "line": 15,
+      "hash": "a1b2c3d4e5f6aa78bb90cc11dd22ee33",
+      "textRange": {
+        "startLine": 15,
+        "endLine": 15,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Cognitive Complexity slightly exceeds the recommended threshold.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "effort": "15min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": [
+        "complexity"
+      ]
+    },
+    {
+      "key": "AX9App5Crit00y2",
+      "rule": "js:cyclomatic-complexity",
+      "severity": "MAJOR",
+      "component": "app5-backend:backend/routes/userRoutes.js",
+      "project": "app5-backend",
+      "line": 42,
+      "hash": "b2c3d4e5f6a7aa89bb01cc12dd34ee56",
+      "textRange": {
+        "startLine": 42,
+        "endLine": 42,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Cyclomatic Complexity slightly above the recommended limit.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "MEDIUM"
+        }
+      ],
+      "effort": "10min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": [
+        "complexity"
+      ]
+    },
+    {
+      "key": "AX9App5Crit00y3",
+      "rule": "js:function-nesting",
+      "severity": "MAJOR",
+      "component": "app5-backend:backend/routes/orderRoutes.js",
+      "project": "app5-backend",
+      "line": 28,
+      "hash": "c3d4e5f6a7b8bb90cc11dd22ee33aa44",
+      "textRange": {
+        "startLine": 28,
+        "endLine": 28,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Nested control flow remains but within acceptable depth.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "10min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": [
+        "nesting"
+      ]
+    },
+    {
+      "key": "AX9App5Crit00y4",
+      "rule": "js:array-delete",
+      "severity": "MINOR",
+      "component": "app5-backend:backend/utils.js",
+      "project": "app5-backend",
+      "line": 10,
+      "hash": "d4e5f6a7b8c9cc12dd34ee56fa78bb90",
+      "textRange": {
+        "startLine": 10,
+        "endLine": 10,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Single occurrence of array element deletion remains.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "10min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": [
+        "array"
+      ]
+    },
+    {
+      "key": "AX9App5Crit00y5",
+      "rule": "js:array-in-operator",
+      "severity": "MINOR",
+      "component": "app5-backend:backend/server.js",
+      "project": "app5-backend",
+      "line": 115,
+      "hash": "e5f6a7b8c9d0dd22ee33aa44bb55cc66",
+      "textRange": {
+        "startLine": 115,
+        "endLine": 115,
+        "startOffset": 0,
+        "endOffset": 0
+      },
+      "message": "Single remaining use of 'in' operator on array.",
+      "status": "OPEN",
+      "type": "CODE_SMELL",
+      "cleanCodeAttribute": "LOGICAL",
+      "cleanCodeAttributeCategory": "ADAPTABLE",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "effort": "5min",
+      "creationDate": "2026-01-05T10:00:00+0000",
+      "updateDate": "2026-01-05T10:00:00+0000",
+      "tags": [
+        "array"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "key": "app5-backend",
+      "enabled": true,
+      "qualifier": "TRK",
+      "name": "app5-backend",
+      "longName": "app5-backend",
+      "path": ""
+    },
+    {
+      "key": "app5-backend:backend/routes/productRoutes.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "productRoutes.js",
+      "longName": "backend/routes/productRoutes.js",
+      "path": "backend/routes/productRoutes.js"
+    },
+    {
+      "key": "app5-backend:backend/routes/userRoutes.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "userRoutes.js",
+      "longName": "backend/routes/userRoutes.js",
+      "path": "backend/routes/userRoutes.js"
+    },
+    {
+      "key": "app5-backend:backend/routes/orderRoutes.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "orderRoutes.js",
+      "longName": "backend/routes/orderRoutes.js",
+      "path": "backend/routes/orderRoutes.js"
+    },
+    {
+      "key": "app5-backend:backend/utils.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "utils.js",
+      "longName": "backend/utils.js",
+      "path": "backend/utils.js"
+    },
+    {
+      "key": "app5-backend:backend/server.js",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "server.js",
+      "longName": "backend/server.js",
+      "path": "backend/server.js"
+    }
+  ],
+  "rules": [
+    {
+      "key": "js:cognitive-complexity",
+      "name": "Cognitive Complexity of functions should not be too high",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:cyclomatic-complexity",
+      "name": "Cyclomatic Complexity should be reduced",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:function-nesting",
+      "name": "Control flow statements should not be nested too deeply",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:array-delete",
+      "name": "Avoid deleting elements from arrays",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "status": "READY"
+    },
+    {
+      "key": "js:array-in-operator",
+      "name": "Avoid using 'in' operator on arrays",
+      "lang": "js",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "status": "READY"
+    }
+  ],
+  "facets": [
+    {
+      "property": "rules",
+      "values": [
+        { "val": "js:cognitive-complexity", "count": 10 },
+        { "val": "js:cyclomatic-complexity", "count": 8 },
+        { "val": "js:function-nesting", "count": 6 },
+        { "val": "js:array-delete", "count": 1 },
+        { "val": "js:array-in-operator", "count": 1 }
+      ]
+    }
+  ]
+}
