@@ -1,6 +1,6 @@
 ### Replication Package
 
-This repository contains the replication package for the study “IImpact of Code Refactoring on Cloud Execution Costs in Web
+This repository contains the replication package for the study “Impact of Code Refactoring on Cloud Execution Costs in Web
 Applications”. The artifacts provided here support the reproduction of the experimental workflow described in the paper, including static analysis, the refactoring process, workload execution, and cost evaluation.
 
 ### Overview
